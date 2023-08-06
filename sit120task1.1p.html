@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: bisque;
+      }
+      form{
+        background-color:antiquewhite;
+        width: 300px;
+        height: 300px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+      }
+      body {
+    
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .Content {
+        display: flex;
+        width: 700px;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        align-items: center;
+      }
+      table {
+        width: 200px;
+      }
+      td,
+      th {
+        border: 1px solid black;
+      }
+      .h5 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Content">
+      <div id="Headings">
+        <br>
+        <br>
+        <h1 style="color: #7c4646">heading 1</h1>
+        <h2
+          style="
+            background-color: rgb(158, 126, 103);
+            width: 150px;
+            border-radius: 20%;
+          "
+        >
+          heading 2
+        </h2>
+        <h3>heading 3</h3>
+        <h4 id="h5">heading 4</h4>
+        <h5 class="h5">heading 5</h5>
+      </div>
+      <div id="Image">
+        <img
+          style="width: 100px;"
+          src="https://img00.deviantart.net/bc0b/i/2015/225/5/e/shin_chan_vectorial_by_markef-d95i293.png"
+          alt=""
+        />
+      </div>
+      <div id="Table">
+        <br />
+        <br />
+        <table style="border: 1px solid green">
+          <tr>
+            <th>Name</th>
+            <th>Roll no</th>
+            <th>Class</th>
+          </tr>
+          <tr>
+            <td>Diya</td>
+            <td>10</td>
+            <td>Tenth</td>
+          </tr>
+          <tr>
+            <td>Riya</td>
+            <td>5</td>
+            <td>Eleventh</td>
+          </tr>
+          <tr>
+            <td>Daksh</td>
+            <td>14</td>
+            <td>Third</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div id="myform">
+            <form action="">
+            Name
+            <input type="text" placeholder="Enter your name: " />
+            <br />
+            Age
+            <input type="number" placeholder="Enter your age: " />
+            <br />
+            Mobile no
+            <input type="number" placeholder="Enter your Mobile no: " />
+            <br />
+            Password
+            <input type="password" placeholder="Enter your passwprd: " />
+            <br />
+            <input type="SUBMIT" />
+            </form>
+      </div>
+    </div>
+  </body>
+</html>
